@@ -1,6 +1,8 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
-import { Sandpack } from "@codesandbox/sandpack-react";
+// import { Sandpack } from "@codesandbox/sandpack-react";
+import ReactMarkdown from "react-markdown";
+
 import "./App.css";
 
 function App() {
@@ -12,7 +14,8 @@ function App() {
         <a href="https://reactjs.org" target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
-        <Sandpack />
+        {/* <Sandpack /> */}
+        <ReactMarkdown># 123</ReactMarkdown>
       </div>
       <h1>Rspack + React + TypeScript</h1>
       <div className="card">
